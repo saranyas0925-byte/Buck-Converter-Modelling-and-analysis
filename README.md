@@ -58,7 +58,7 @@ To increase output voltage control, feedback is introduced.
 - It is compared with a reference voltage
 - The difference is used to adjust switching
 ![Feedback Path](screenshots/10_feedback_signal_path.png)
-## 9. Voltag based Control
+## 9. Voltage based Control
 - Only output voltage is used for feedback
 - No current sensor is used
 Steps:
