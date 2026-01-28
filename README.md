@@ -85,7 +85,7 @@ The control is basic and focused on learning.
 - Switching behavior is clearly observed
 - Feedback influence is demonstrated
 ![Open vs Closed Loop](screenshots/17_open_loop_vs_closed_loop_comparison.png)  
-![Output Voltage Response](IMG_0944.png)
+![Output Voltage Response](IMG_0944.jpeg)
 ## 13. Tools Used
 - MATLAB
 - Simulink
