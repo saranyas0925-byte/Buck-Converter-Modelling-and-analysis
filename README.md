@@ -78,7 +78,7 @@ The MOSFET requires a voltage at its gate to switch ON and OFF.
 - Feedback signals are connected
 - Control signals are routed correctly
 The control is basic and focused on learning.
-![Closed Loop  Structure Overview](screenshots/15_91C4B6F1-1383-4506-8DE0-625FAA6C65C2.jpeg)  
+![Closed Loop  Structure Overview](91C4B6F1-1383-4506-8DE0-625FAA6C65C2.jpeg)  
 ![Control to Gate Signal](screenshots/16_control_signal_to_gate.png)
 ## 12. Results and Observations
 - Open-loop behavior is verified
