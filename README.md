@@ -43,7 +43,7 @@ By changing the duty cycle:
 - Output voltage changes
 - The relationship between duty cycle and output voltage is observed
 ![PWM Settings](screenshots/06_open_loop_pwm_settings.png)  
-![Open Loop Output voltage](IMG_0945.jpeg)
+![Open Loop Output voltage](IMG_0947.jpeg)
 ## 7. Switching Action Observation
 The MOSFET switches ON and OFF repeatedly.
 There is a point in the circuit where:
