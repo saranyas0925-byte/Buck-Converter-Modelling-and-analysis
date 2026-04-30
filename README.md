@@ -1,7 +1,7 @@
 # Buck-Converter-Modelling-and-analysis
 # Buck Converter Design and Modeling (Simulation Project)
 ## Project Overview
-This project focuses on understanding how a buck converter works using MATLAB/Simulink.
+This project models and analyzes a buck DC-DC converter using MATLAB/Simulink  and simscape electrical,examining open loop switching behaviour and volateg mode feedback control implementation
 A buck converter is a circuit that:
 - Takes a higher DC voltage
 - Converts it into a lower DC voltage
@@ -17,9 +17,11 @@ This project was done to:
 - understand duty cycle to output voltage relationship in DC-DC step down conversion
 ## 3. System Description
 The system studied is a buck (step-down) DC–DC converter.
-- Input: DC voltage source  
-- Output: Lower DC voltage  
-- Load: Resistive load  
+- Input: 12v DC voltage source  
+- Output: 6v (refernce) DC voltage  
+- Load: Resistive load
+- switching frequency: approximately 10khz
+- duty cycle range: 25 % to 75%(open loop analysis)
 ![System Description](screenshots/02_system_block_level_view.png)
 ## 4. Circuit Components Used
 - DC voltage source
@@ -31,7 +33,7 @@ The system studied is a buck (step-down) DC–DC converter.
 Each component plays a role in reducing and smoothing the ripples in output voltage.
 ![Circuit Components](screenshots/03_base_circuit_components.png)
 ## 5. Base Circuit Construction
-The first step was building the  base buck converter circuit.
+The power stage was constructed using simscape electrical components -dc voltage source,mosfet switch,freewheeling diode,filter inductor,output capacitor and load resistor.
 - All components are connected correctly
 -feedback control is not yet used
 ![Base Circuit Connections](screenshots/04_base_circuit_connections.png)  
