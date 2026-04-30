@@ -97,9 +97,8 @@ The MOSFET requires a voltage at its gate to switch ON and OFF.
 - Demonstrated open-loop duty cycle  to output voltage relationship 
 - identified and resolved signal type compatability challenges in simscape simulink interference
 ## 15. Conclusion
-This project provides a clear and simple understanding of buck converter operation and basic control using simulation.
-It builds a strong foundation for further learning in:
-- Power electronics
-- Control systems
-- Electric vehicle power systems
+This project demonstrates buck converter operation switching behaviour analysis and voltage mode feedback control implementation using matlab/simulink and simscape electrical.
+this work forms the analytical basis  for advanced power electronics projects including
+- closed loop pi voltage control and dynamic load response
+- advanced power electronics simulation using simscape electrical
 ![Final Model](screenshots/19_final_simulink_model.png)
