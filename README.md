@@ -12,9 +12,9 @@ Buck converters are commonly used in:
 - Electric vehicles
 - Electronic systems
 This project was done to:
-- Relearn basic power electronics concepts
-- Understand switching operation
-- Learn how feedback helps control output voltage
+- analyze buck converter switching behaviour under open loop and closed loop conditions
+- study voltage mode feedback control implementstion using simscape electrical
+- understand duty cycle to output voltage relationship in DC-DC step down conversion
 ## 3. System Description
 The system studied is a buck (step-down) DC–DC converter.
 - Input: DC voltage source  
