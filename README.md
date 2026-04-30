@@ -91,12 +91,11 @@ The MOSFET requires a voltage at its gate to switch ON and OFF.
 - MATLAB
 - Simulink
 - Simscape Electrical
-## 14. Learning Outcomes
-- Buck converter operation
-- Effect of duty cycle
-- Switching behavior
-- Difference between open-loop and closed-loop operation
-- Basic feedback control concept
+## 14. Technical Outcomes
+- verified Buck converter step down operation with output voltage voltage follwoing duty cycle
+- observed Switching node voltage tranistions between high and low states 
+- Demonstrated open-loop duty cycle  to output voltage relationship 
+- identified and resolved signal type compatability challenges in simscape simulink interference
 ## 15. Conclusion
 This project provides a clear and simple understanding of buck converter operation and basic control using simulation.
 It builds a strong foundation for further learning in:
