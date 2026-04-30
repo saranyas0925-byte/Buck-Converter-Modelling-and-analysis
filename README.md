@@ -36,15 +36,15 @@ Each component plays a role in reducing and smoothing the ripples in output volt
 The power stage was constructed using simscape electrical components -dc voltage source,mosfet switch,freewheeling diode,filter inductor,output capacitor and load resistor.
 - All components are connected correctly
 -feedback control is not yet used
-![Base Circuit Connections](screenshots/04_base_circuit_connections.png)  
-![Base Circuit Complete](screenshots/05_base_circuit_complete.png)
+![Base Circuit Connections](screenshots/04_base_circuit_connections.jpeg)  
+![Base Circuit Complete](screenshots/05_base_circuit_complete.jpeg)
 ## 6. Open-Loop Operation
 - The MOSFET is driven using a fixed duty cycle
 - The output voltage is not automatically controlled
 By changing the duty cycle:
 - Output voltage changes
 - The relationship between duty cycle and output voltage is observed
-![PWM Settings](screenshots/06_open_loop_pwm_settings.png)  
+![PWM Settings](screenshots/06_open_loop_pwm_settings.jpeg)  
 ![Open Loop Output voltage](IMG_0947.jpeg)
 ## 7. Switching Action Observation
 The MOSFET switches ON and OFF repeatedly.
