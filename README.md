@@ -37,7 +37,7 @@ The power stage was constructed using simscape electrical components -dc voltage
 - All components are connected correctly
 -feedback control is not yet used
 ![Base Circuit Connections](screenshots/04_base_circuit_connections.jpeg)  
-![Base Circuit Complete](screenshots/05_base_circuit_complete.jpeg)
+![Base Circuit Complete](https://github.com/saranyas0925-byte/Buck-Converter-Modelling-and-analysis/blob/main/IMG_3A5E3E4D-1A0D-4A57-B7E5-DF5FA4579492.jpeg)
 ## 6. Open-Loop Operation
 - The MOSFET is driven using a fixed duty cycle
 - The output voltage is not automatically controlled
